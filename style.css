@@ -4,6 +4,8 @@ html {
 
 body {
   font-family: sans-serif;
+  padding: 0;
+  margin: 0%;
 }
 
 h1 {
@@ -28,24 +30,33 @@ footer {
   font-family: 'Roboto', sans-serif;
   position: sticky;
   margin-top: 50px;
-  height: 200px;
+  height: 5rem;
   width: 100%;
+}
+
+footer .content {
+  color: white;
+  height: 4rem;
   display: inline-flex;
-  justify-content: space-around;
-  align-items: baseline;
-  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
-footer h5 {
-  font-size: 1rem;
-  color: rgb(50, 50, 50);
+footer .copyright {
+  flex-grow: 1;
+  font-size: 0.9rem;
+  padding-left: 0.8rem;
 }
 
-footer h6 {
-  font-size: 0.625rem;
-  color: black;
+footer .location {
+  font-size: 0.9rem;
+  width: 15%;
 }
 
+footer a {
+  color: white;
+}
 
 .picture {
   display: relative;
@@ -64,7 +75,7 @@ nav{
   align-items: center;
   justify-content: center ;
   margin: 0 auto;
-  bottom: 70px;
+  
 }
 
 nav li{
@@ -75,7 +86,7 @@ nav li{
   width: 12em;
   text-align: center;
   border: 1px solid black;
-  border-radius: 15px;
+  border-radius: 1rem;
 }
 
 a {
@@ -91,15 +102,13 @@ a:hover, nav li:hover {
 
 
 #banner {
-  height: 700px;
+  height: 35rem;
   width: 100%;
   position: relative; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  
 }
 
 #banner .content h1{
@@ -125,12 +134,13 @@ a:hover, nav li:hover {
   margin: 0 auto;
   position: relative;
   z-index: 1;
-  bottom: 20px;
+  bottom: 2.5rem;
 }
 
 .content {
   position: relative;
   margin: 0 auto;
+  height: 100%;
 }
 
 
@@ -138,12 +148,11 @@ a:hover, nav li:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   text-align: center;
-  z-index: 50;  
+  z-index: 50;
   width: 100%;
   margin: 0 auto;
-
 }
 
 
@@ -153,18 +162,13 @@ a:hover, nav li:hover {
   position: relative;
   
 }
-/* wrapper which wraps all the slideshow images stylings */
+
 .slideshow-wrapper {
   display: flex;
-  /* We give it width as 400% because we are making a 
-     4 image carousel. If you want to make for example, 
-     5 images carousel, then give width as 500%. */
   width: 400%;
   height: 100%;
   position: relative;
-  /* you can change the animation settings from below */
   animation: slideshow 20s infinite;
-  
 }
 
 .slide {
@@ -176,9 +180,7 @@ a:hover, nav li:hover {
   height: 100%;
   object-fit: cover; 
 }
-/* @keyframes are used to provide animations
- We make these settings for 4 image carousel.
- Make modification according to your needs. */
+
 @keyframes slideshow {
   0%  { left: 0; }
   10% { left: 0; }
@@ -203,18 +205,13 @@ a:hover, nav li:hover {
   height: 1.2rem;
   outline: none;
   cursor: pointer;
-            /* stylings for positioning the buttons at
-               the bottom of the carousel */
   position: absolute;
   bottom: 3%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 70;
 }
-           /* As we provide position as absolute, 
-           the buttons places one over the other. 
-           So, we have to place them individually
-           at their correct positions. */
+          
 .slide-btn-1 {
   left: 43%;
 }
@@ -228,9 +225,6 @@ a:hover, nav li:hover {
 .slide-btn-4 {
   left: 58%;
 }
-           /* When we focus on the particular button, 
-           the animation stops to that particular image 
-           to which the button is associated. */
 .slide-btn-1:focus~.slideshow-wrapper {
   animation: none;
   left: 0;
@@ -247,7 +241,7 @@ a:hover, nav li:hover {
   animation: none;
   left: -300%;
 }
-           /* when we focus on the button, the background color changes */
+          
 .slide-btn:focus {
 background-color: rgb(114, 189, 250);
 }
@@ -285,7 +279,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .tekapo {
-  background-image: url('Mt. Cook/lake tekapo.jpg');
+  background-image: url('photos/Mt. Cook/lake tekapo.jpg');
   background-size: cover;
   background-position: center; 
   height: 50%;
@@ -294,10 +288,6 @@ background-color: rgb(114, 189, 250);
   border-radius: 50px;
   border: 1px solid black;
 }
-
-
-
-
 
 /* Trip sections */
 
@@ -322,7 +312,7 @@ background-color: rgb(114, 189, 250);
   align-items: center;
   flex-wrap: wrap;
   width: 90%;
-  height: 100%; 
+  height: 100%;
   position: relative;
   margin-bottom: 10px;
   left: 5%;
@@ -383,7 +373,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .qtown2 {
-  background-image: url("Queenstown/queenstown2.jpg");
+  background-image: url("photos/Queenstown/queenstown2.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -395,7 +385,7 @@ background-color: rgb(114, 189, 250);
 
 .qtown2:hover {
   cursor: pointer;
-  background-image: url("Queenstown/milbrook.jpg");
+  background-image: url("photos/Queenstown/milbrook.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -406,7 +396,7 @@ background-color: rgb(114, 189, 250);
 } 
 
 .westcoast {
-  background-image: url("West Coast/hokitika.jpg");
+  background-image: url("photos/West Coast/hokitika.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -419,7 +409,7 @@ background-color: rgb(114, 189, 250);
 
 .westcoast:hover {
   cursor: pointer;
-  background-image: url("West Coast/boardwalk.jpg");
+  background-image: url("photos/West Coast/boardwalk.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -432,7 +422,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .tongariro {
-  background-image: url("Tongariro/Tongariro2.jpg");
+  background-image: url("photos/Tongariro/Tongariro2.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -444,7 +434,7 @@ background-color: rgb(114, 189, 250);
 
 .tongariro:hover {
   cursor: pointer;
-  background-image: url("Tongariro/Tongariro.jpg");
+  background-image: url("photos/Tongariro/Tongariro.jpg");
   background-size: cover;
   background-position: top;
   height: 80%;
@@ -455,7 +445,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .blenheim {
-  background-image: url("blenheim/Winery.jpg");
+  background-image: url("photos/blenheim/Winery.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -467,7 +457,7 @@ background-color: rgb(114, 189, 250);
 
 .blenheim:hover {
   cursor: pointer;
-  background-image: url("blenheim/half.jpg");
+  background-image: url("photos/blenheim/half.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -479,7 +469,7 @@ background-color: rgb(114, 189, 250);
 
 
 .castlepoint {
-  background-image: url("Castlepoint/castlepoint.jpg");
+  background-image: url("photos/Castlepoint/castlepoint.jpg");
   background-size: cover;
   background-position: left;
   height: 80%;
@@ -491,7 +481,7 @@ background-color: rgb(114, 189, 250);
 
 .castlepoint:hover {
   cursor: pointer;
-  background-image: url("Castlepoint/Ica Valley.jpg");
+  background-image: url("photos/Castlepoint/Ica Valley.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -502,7 +492,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .capepalliser {
-  background-image: url("Cape Palliser/capepalliser.jpg");
+  background-image: url("photos/Cape Palliser/capepalliser.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -514,7 +504,7 @@ background-color: rgb(114, 189, 250);
 
 .capepalliser:hover {
   cursor: pointer;
-  background-image: url("Cape Palliser/open road (2).jpg");
+  background-image: url("photos/Cape Palliser/open road (2).jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -529,7 +519,7 @@ background-color: rgb(114, 189, 250);
 .gridcontainer {
   display: grid;
   grid-template: repeat(4, 350px) / repeat(6, 1fr);
-  width: 70%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   gap: 10px;
@@ -546,7 +536,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .skyline {
-  background-image: url("Queenstown/sky2.jpg");
+  background-image: url("photos/Queenstown/sky2.jpg");
   background-size: cover;
   background-position: center; 
   grid-row: 1 / span 1;
@@ -567,7 +557,7 @@ background-color: rgb(114, 189, 250);
 
 
 .glenorchy {
-  background-image: url("Queenstown/Glenorchy Shed.jpg");
+  background-image: url("photos/Queenstown/Glenorchy Shed.jpg");
   background-size: cover;
   background-position: center;
   grid-row: 2 / span 1;
@@ -585,7 +575,7 @@ background-color: rgb(114, 189, 250);
 } 
 
 .drive {
-  background-image: url("Queenstown/mountains.jpg");
+  background-image: url("photos/Queenstown/mountains.jpg");
   background-size: cover;
   background-position: center; 
   grid-row: 2 / span 1;
@@ -593,7 +583,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .wanakatree {
-  background-image: url("Wanaka tekapo/punongwanaka2.jpg");
+  background-image: url("photos/Wanaka tekapo/punongwanaka2.jpg");
   background-size: cover;
   background-position: center; 
   grid-row: 3 / span 1;
@@ -601,7 +591,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .glenorchyboard {
-  background-image: url("Queenstown/Glenorchy Board2.jpg");
+  background-image: url("photos/Queenstown/Glenorchy Board2.jpg");
   background-size: cover;
   background-position: center; 
   grid-row: 3 / span 1;
@@ -609,7 +599,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .bino {
-  background-image: url("West Coast/bino2.jpg");
+  background-image: url("photos/West Coast/bino2.jpg");
   background-size: cover;
   background-position: center;
   grid-row: 3 / span 1;
@@ -617,7 +607,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .hobbit {
-  background-image: url("Hobbiton/Hobbiton2.jpg");
+  background-image: url("photos/Hobbiton/Hobbiton2.jpg");
   background-size: cover;
   background-position: center;
   grid-row: 4 / span 1;
@@ -625,7 +615,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .tongariropeak {
-  background-image: url("Tongariro/tongariro peak.jpg");
+  background-image: url("photos/Tongariro/tongariro peak.jpg");
   background-size: cover;
   background-position: center;
   grid-row: 4 / span 1;
@@ -673,43 +663,147 @@ background-color: rgb(114, 189, 250);
   font-weight: 700;
   font-size: 55px;
 }
-
-@media only screen and (min-width: 320px) and (max-width: 900px), (orientation: portrait) {
-  
-  nav{
+/* Phone / Portratit Tablet */
+@media only screen and (max-width: 600px) {
+  nav {
     position: relative;
-    height: 100%;
-    width: 80%;
-    bottom: 30px;
-    left: 10%;
+    height: 15%;
+    width: 100%;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    bottom: 1rem;
+    right: 0.5rem;
   }
-  
+ 
   nav li{
-    font-size: 1rem;
+    color: white;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 1.2rem;
     display: inline-block;
-    width: 90px;
+    width: 8rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
   }
 
   #banner {
-    height: 250px;
+    height: 23.75rem;
+    margin: 0%;
+    position: sticky;
   }
   
   #banner .content h1{
-    font-size: 1.9rem;
-    height: 50%;
-    padding: 5% 1% 5% 1%
+    font-size: 3.5rem;
+    height: 100%;
+    padding: 2% 1%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
   }
 
   .tagline h2{
-    font-size: 0.9rem;
-    bottom: 20px;
-  }
-  #tripheader { 
-    font-size: 2rem;
+    font-size: 1.5rem;
+    top: 0.7rem;
   }
 
+  .slide-btn {
+    background-color: #bbb;
+    border-radius: 50%;
+    border: .2rem solid #d38800;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 70;
+  }
+          
+  .slide-btn-1 {
+    left: 43%;
+  }
+  .slide-btn-2 {
+    left: 48%;
+  }
+  
+  .slide-btn-3 {
+    left: 53%;
+  }
+  .slide-btn-4 {
+    left: 58%;
+  }
+  .slide-btn-1:focus~.slideshow-wrapper {
+    animation: none;
+    left: 0;
+  }
+  .slide-btn-2:focus~.slideshow-wrapper {
+    animation: none;
+    left: -100%;
+  }
+  .slide-btn-3:focus~.slideshow-wrapper {
+    animation: none;
+    left: -200%;
+  }
+  .slide-btn-4:focus~.slideshow-wrapper {
+    animation: none;
+    left: -300%;
+  }
+            
+  .slide-btn:focus {
+  background-color: rgb(114, 189, 250);
+  }
+  
+  .explore {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 21rem;
+    margin: 1% auto 4% auto;
+    position: relative;
+    left: 1%;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .introexplore {
+    width: 100%;
+    min-width: auto;
+  }
+  
   .introexplore h2 {
+    font-family: 'Edu TAS Beginner', cursive;
     font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+    padding: 5%;
+    border-left: 5px solid rgb(114, 189, 250);
+    border-top: 5px solid rgb(114, 189, 250);
+  
+  }
+  
+  .tekapo {
+    background-image: url('photos/Mt. Cook/lake tekapo.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 50%;
+    width: 100%;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid black;
+  }
+
+
+  .gridcontainer {
+    display: grid;
+    grid-template: repeat(4, 18.75rem) / repeat(6, 1fr);
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    gap: 10px;
   }
 
   #aboutme {
@@ -717,11 +811,10 @@ background-color: rgb(114, 189, 250);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 700px;
-    width: 95%;
-    margin: 50px auto;
-    left: 2.5%;
-    
+    height: 40rem;
+    width: 90%;
+    margin: 1rem auto;
+    left: 0%;
   }
   
   .intro {
@@ -751,23 +844,15 @@ background-color: rgb(114, 189, 250);
   .LetsGo h2{
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin: 5px auto;
   }
 
   footer {
-    margin-top: 10px;
-    height: 200px;
+    margin-top: 0.62rem;
+    height: 4rem;
     width: 100%;
     left: 5%;
   }
-  
-  footer h5 {
-    font-size: 0.7rem;
-    color: rgb(50, 50, 50);
-  }
-  
-  footer h6 {
-    font-size: 0.5rem;
-    color: black;
-  }
+
 }
