@@ -158,7 +158,7 @@ a:hover, nav li:hover {
 
 .slideshow {
   height: 100%;
-  overflow: hidden; /* to hide slides in x-direction */
+  overflow: hidden; 
   position: relative;
   
 }
@@ -250,7 +250,6 @@ background-color: rgb(114, 189, 250);
 
 /* explore */
 .explore {
-  /* background-color: rgba(11, 149, 241, 0.5); */
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -373,7 +372,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .qtown2 {
-  background-image: url("photos/Queenstown/queenstown2.jpg");
+  background-image: url("Queenstown/queenstown2.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -385,7 +384,7 @@ background-color: rgb(114, 189, 250);
 
 .qtown2:hover {
   cursor: pointer;
-  background-image: url("photos/Queenstown/milbrook.jpg");
+  background-image: url("Queenstown/milbrook.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -396,7 +395,7 @@ background-color: rgb(114, 189, 250);
 } 
 
 .westcoast {
-  background-image: url("photos/West Coast/hokitika.jpg");
+  background-image: url("West Coast/hokitika.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -409,7 +408,7 @@ background-color: rgb(114, 189, 250);
 
 .westcoast:hover {
   cursor: pointer;
-  background-image: url("photos/West Coast/boardwalk.jpg");
+  background-image: url("West Coast/boardwalk.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -422,7 +421,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .tongariro {
-  background-image: url("photos/Tongariro/Tongariro2.jpg");
+  background-image: url("Tongariro/Tongariro2.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -434,7 +433,7 @@ background-color: rgb(114, 189, 250);
 
 .tongariro:hover {
   cursor: pointer;
-  background-image: url("photos/Tongariro/Tongariro.jpg");
+  background-image: url("Tongariro/Tongariro.jpg");
   background-size: cover;
   background-position: top;
   height: 80%;
@@ -445,7 +444,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .blenheim {
-  background-image: url("photos/blenheim/Winery.jpg");
+  background-image: url("blenheim/Winery.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -457,7 +456,7 @@ background-color: rgb(114, 189, 250);
 
 .blenheim:hover {
   cursor: pointer;
-  background-image: url("photos/blenheim/half.jpg");
+  background-image: url("blenheim/half.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -469,7 +468,7 @@ background-color: rgb(114, 189, 250);
 
 
 .castlepoint {
-  background-image: url("photos/Castlepoint/castlepoint.jpg");
+  background-image: url("Castlepoint/castlepoint.jpg");
   background-size: cover;
   background-position: left;
   height: 80%;
@@ -481,7 +480,7 @@ background-color: rgb(114, 189, 250);
 
 .castlepoint:hover {
   cursor: pointer;
-  background-image: url("photos/Castlepoint/Ica Valley.jpg");
+  background-image: url("Castlepoint/Ica Valley.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -492,7 +491,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .capepalliser {
-  background-image: url("photos/Cape Palliser/capepalliser.jpg");
+  background-image: url("Cape Palliser/capepalliser.jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -504,7 +503,7 @@ background-color: rgb(114, 189, 250);
 
 .capepalliser:hover {
   cursor: pointer;
-  background-image: url("photos/Cape Palliser/open road (2).jpg");
+  background-image: url("Cape Palliser/open road (2).jpg");
   background-size: cover;
   background-position: center;
   height: 80%;
@@ -536,7 +535,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .skyline {
-  background-image: url("photos/Queenstown/sky2.jpg");
+  background-image: url("Queenstown/sky2.jpg");
   background-size: cover;
   background-position: center; 
   grid-row: 1 / span 1;
@@ -557,7 +556,7 @@ background-color: rgb(114, 189, 250);
 
 
 .glenorchy {
-  background-image: url("photos/Queenstown/Glenorchy Shed.jpg");
+  background-image: url("Queenstown/Glenorchy Shed.jpg");
   background-size: cover;
   background-position: center;
   grid-row: 2 / span 1;
@@ -575,7 +574,7 @@ background-color: rgb(114, 189, 250);
 } 
 
 .drive {
-  background-image: url("photos/Queenstown/mountains.jpg");
+  background-image: url("Queenstown/mountains.jpg");
   background-size: cover;
   background-position: center; 
   grid-row: 2 / span 1;
@@ -583,7 +582,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .wanakatree {
-  background-image: url("photos/Wanaka tekapo/punongwanaka2.jpg");
+  background-image: url("Wanaka tekapo/punongwanaka2.jpg");
   background-size: cover;
   background-position: center; 
   grid-row: 3 / span 1;
@@ -591,7 +590,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .glenorchyboard {
-  background-image: url("photos/Queenstown/Glenorchy Board2.jpg");
+  background-image: url("Queenstown/Glenorchy Board2.jpg");
   background-size: cover;
   background-position: center; 
   grid-row: 3 / span 1;
@@ -599,7 +598,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .bino {
-  background-image: url("photos/West Coast/bino2.jpg");
+  background-image: url("West Coast/bino2.jpg");
   background-size: cover;
   background-position: center;
   grid-row: 3 / span 1;
@@ -607,7 +606,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .hobbit {
-  background-image: url("photos/Hobbiton/Hobbiton2.jpg");
+  background-image: url("Hobbiton/Hobbiton2.jpg");
   background-size: cover;
   background-position: center;
   grid-row: 4 / span 1;
@@ -615,7 +614,7 @@ background-color: rgb(114, 189, 250);
 }
 
 .tongariropeak {
-  background-image: url("photos/Tongariro/tongariro peak.jpg");
+  background-image: url("Tongariro/tongariro peak.jpg");
   background-size: cover;
   background-position: center;
   grid-row: 4 / span 1;
@@ -786,7 +785,7 @@ background-color: rgb(114, 189, 250);
   }
   
   .tekapo {
-    background-image: url('photos/Mt. Cook/lake tekapo.jpg');
+    background-image: url('Mt. Cook/lake tekapo.jpg');
     background-size: cover;
     background-position: center; 
     height: 50%;
