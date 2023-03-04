@@ -224,7 +224,7 @@ body {
     margin: 0 auto;
     height: 35rem;
     width: 100%;
-    background-image: url('photos/Mt. Cook/glacier.jpg');
+    background-image: url('Mt. Cook/glacier.jpg');
     background-size: cover;
     background-position: center; 
   }
@@ -262,7 +262,7 @@ body {
   }
   
   .tekapo {
-    background-image: url('photos/Mt. Cook/lake tekapo.jpg');
+    background-image: url('Mt. Cook/lake tekapo.jpg');
     background-size: cover;
     background-position: right;
     height: 50%;
@@ -358,7 +358,7 @@ body {
   }
   
   .qtown2 {
-    background-image: url("photos/Queenstown/queenstown2.jpg");
+    background-image: url("Queenstown/queenstown2.jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -370,7 +370,7 @@ body {
   
   .qtown2:hover {
     cursor: pointer;
-    background-image: url("photos/Queenstown/milbrook.jpg");
+    background-image: url("Queenstown/milbrook.jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -381,7 +381,7 @@ body {
   } 
   
   .westcoast {
-    background-image: url("photos/West Coast/hokitika.jpg");
+    background-image: url("West Coast/hokitika.jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -394,7 +394,7 @@ body {
   
   .westcoast:hover {
     cursor: pointer;
-    background-image: url("photos/West Coast/boardwalk.jpg");
+    background-image: url("West Coast/boardwalk.jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -407,7 +407,7 @@ body {
   }
   
   .tongariro {
-    background-image: url("photos/Tongariro/Tongariro2.jpg");
+    background-image: url("Tongariro/Tongariro2.jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -419,7 +419,7 @@ body {
   
   .tongariro:hover {
     cursor: pointer;
-    background-image: url("photos/Tongariro/Tongariro.jpg");
+    background-image: url("Tongariro/Tongariro.jpg");
     background-size: cover;
     background-position: top;
     height: 80%;
@@ -430,7 +430,7 @@ body {
   }
   
   .blenheim {
-    background-image: url("photos/blenheim/Winery.jpg");
+    background-image: url("blenheim/Winery.jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -442,7 +442,7 @@ body {
   
   .blenheim:hover {
     cursor: pointer;
-    background-image: url("photos/blenheim/half.jpg");
+    background-image: url("blenheim/half.jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -454,7 +454,7 @@ body {
   
   
   .castlepoint {
-    background-image: url("photos/Castlepoint/castlepoint.jpg");
+    background-image: url("Castlepoint/castlepoint.jpg");
     background-size: cover;
     background-position: left;
     height: 80%;
@@ -466,7 +466,7 @@ body {
   
   .castlepoint:hover {
     cursor: pointer;
-    background-image: url("photos/Castlepoint/IMG20210309123425.jpg");
+    background-image: url("Castlepoint/IMG20210309123425.jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -477,7 +477,7 @@ body {
   }
   
   .capepalliser {
-    background-image: url("photos/Cape Palliser/capepalliser.jpg");
+    background-image: url("Cape Palliser/capepalliser.jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -489,7 +489,7 @@ body {
   
   .capepalliser:hover {
     cursor: pointer;
-    background-image: url("photos/Cape Palliser/open road (2).jpg");
+    background-image: url("Cape Palliser/open road (2).jpg");
     background-size: cover;
     background-position: center;
     height: 80%;
@@ -500,7 +500,7 @@ body {
   }
   
   .thumbnail {
-    background-image: url("photos/Mt. Cook/tasmanglacier.jpg");
+    background-image: url("Mt. Cook/tasmanglacier.jpg");
     background-size: cover;
     background-position: center;
     width: 80%;
@@ -509,7 +509,7 @@ body {
   }
 
   .thumbnail:hover {
-    background-image: url("photos/Mt. Cook/hookervalley.jpg");
+    background-image: url("Mt. Cook/hookervalley.jpg");
     background-size: cover;
     background-position: top;
     width: 80%;
