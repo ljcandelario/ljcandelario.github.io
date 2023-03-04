@@ -219,7 +219,7 @@ footer a {
     margin: 0 auto;
     height: 35rem;
     width: 100%;
-    background-image: url('photos/Milford Sound/Milford.jpg');
+    background-image: url('Milford Sound/Milford.jpg');
     background-size: cover;
     background-position: center; 
   }
@@ -280,7 +280,7 @@ footer a {
   }
   
   .castlepoint {
-    background-image: url("photos/Castlepoint/castlepoint.jpg");
+    background-image: url("Castlepoint/castlepoint.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 1 / span 1;
@@ -308,7 +308,7 @@ footer a {
   }
   
   .winter {
-    background-image: url("photos/Queenstown/Glenorchy Shed.jpg");
+    background-image: url("Queenstown/Glenorchy Shed.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 2 / span 1;
@@ -319,7 +319,7 @@ footer a {
   }
   
   .skyline {
-    background-image: url("photos/Queenstown/Skyline.jpg");
+    background-image: url("Queenstown/Skyline.jpg");
     background-size: cover;
     background-position: center; 
     grid-row: 2 / span 1;
@@ -330,7 +330,7 @@ footer a {
   }
   
   .spring {
-    background-image: url("photos/Wanaka tekapo/punongwanaka2.jpg");
+    background-image: url("Wanaka tekapo/punongwanaka2.jpg");
     background-size: cover;
     background-position: center; 
     grid-row: 3 / span 1;
@@ -341,7 +341,7 @@ footer a {
   }
   
   .summer {
-    background-image: url("photos/West Coast/pancake.jpg");
+    background-image: url("West Coast/pancake.jpg");
     background-size: cover;
     background-position: center; 
     grid-row: 3 / span 1;
@@ -352,7 +352,7 @@ footer a {
   }
   
   .fall {
-    background-image: url("photos/West Coast/bino2.jpg");
+    background-image: url("West Coast/bino2.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 3 / span 1;
@@ -363,7 +363,7 @@ footer a {
   }
   
   .tongariropeak {
-    background-image: url("photos/Tongariro/tongariro peak.jpg");
+    background-image: url("Tongariro/tongariro peak.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 4 / span 1;
@@ -374,7 +374,7 @@ footer a {
   }
 
   .hobbit {
-    background-image: url("photos/Hobbiton/Hobbiton2.jpg");
+    background-image: url("Hobbiton/Hobbiton2.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 4 / span 1;
@@ -385,7 +385,7 @@ footer a {
   }
 
   .longtrip {
-    background-image: url("photos/West Coast/jackson.jpg");
+    background-image: url("West Coast/jackson.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 5 / span 1;
@@ -408,7 +408,7 @@ footer a {
   }
 
   .craypot {
-    background-image: url("photos/West Coast/craypot.jpg");
+    background-image: url("West Coast/craypot.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 1 / span 1;
@@ -421,7 +421,7 @@ footer a {
 
 
   .relax {
-    background-image: url("photos/Queenstown/queenstown.jpg");
+    background-image: url("Queenstown/queenstown.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 1 / span 1;
@@ -431,7 +431,7 @@ footer a {
   }
 
   .winery {
-    background-image: url("photos/Hawke's Bay/Oak Estate2.jpg");
+    background-image: url("Hawke's Bay/Oak Estate2.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 2 / span 1;
@@ -442,7 +442,7 @@ footer a {
   }
 
   .winery:hover {
-    background-image: url("photos/blenheim/cloudy\ bay.jpg");
+    background-image: url("blenheim/cloudy\ bay.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 2 / span 1;
@@ -455,7 +455,7 @@ footer a {
   }
 
   .hike {
-    background-image: url("photos/Mt. Cook/hooker valley.jpg");
+    background-image: url("Mt. Cook/hooker valley.jpg");
     background-size: cover;
     background-position: center;
     grid-row: 2 / span 1;
@@ -466,7 +466,7 @@ footer a {
   }  
 
   .hike:hover {
-    background-image: url("photos/Mt. Cook/cook\ \(2\).jpg");
+    background-image: url("Mt. Cook/cook\ \(2\).jpg");
     background-size: cover;
     background-position: center;
     grid-row: 2 / span 1;
@@ -500,7 +500,7 @@ footer a {
 }
 
   .thumbnail {
-    background-image: url("photos/Castlepoint/Ica\ Valley.jpg");
+    background-image: url("Castlepoint/Ica\ Valley.jpg");
     background-size: cover;
     background-position: center;
     width: 80%;
