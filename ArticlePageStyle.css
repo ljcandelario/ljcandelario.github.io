@@ -239,7 +239,7 @@ html {
       margin: 0 auto;
       height: 35rem;
       width: 100%;
-      background-image: url('photos/Background/Milford.jpg');
+      background-image: url('Background/Milford.jpg');
       background-size: cover;
       background-position: center; 
     }
@@ -258,7 +258,7 @@ html {
     
     /* Article */
     .thumbnail {
-      background-image: url("photos/Mt. Cook/Aoraki.jpg");
+      background-image: url("Mt. Cook/Aoraki.jpg");
       background-size: cover;
       background-position: center;
       width: 80%;
